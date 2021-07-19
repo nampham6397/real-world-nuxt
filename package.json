@@ -9,8 +9,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
+    "fs": "*",
+    "net": "^1.0.2",
     "nuxt": "^2.15.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint-loader": "^4.0.2"
+  }
 }
